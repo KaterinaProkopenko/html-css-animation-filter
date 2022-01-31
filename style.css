@@ -94,13 +94,22 @@
     filter: grayscale(70%) sepia(60%);
 }
 
+/* Non l'ho fatto */
 .ex-10-icon {
     font-size: 60px;
 }
 
 .ex-11-icon {
     font-size: 60px;
+    transition: 4s ;
 }
+
+.ex-11-icon:hover {
+    transform: rotate(360deg);
+}
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
